@@ -1,0 +1,15 @@
+.habilidade {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.habilidade article {
+    max-width: 600px;
+}
+
+.habilidade h2{
+    color: #00297f;
+    padding: 3rem;
+    font-size: 5rem;
+}
