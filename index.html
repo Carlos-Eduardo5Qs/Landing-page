@@ -10,26 +10,31 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projeto.css">
+    <link rel="stylesheet" href="css/project-imc.css">
+    <link rel="stylesheet" href="css/sobre.css">
 </head>
 
 <body>
     <header class="menu-nav">
-            <figure>
-                <h1>Logo</h1>
-            </figure>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="*">Habilidades</a></li>
-                <li><a href="*">Projetos</a></li>
-                <li><a href=" *">Sobre</a></li>
-                <li><a href="*">Contato</a></li>
-                <li><a href="*">FAQ</a></li>
-            </ul>
+        <figure>
+            <h1>Logo</h1>
+        </figure>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="*">Habilidades</a></li>
+            <li><a href="*">Projetos</a></li>
+            <li><a href=" *">Sobre</a></li>
+            <li><a href="*">Contato</a></li>
+            <li><a href="*">FAQ</a></li>
+        </ul>
     </header>
     <main class="cabecalho" id="inicio">
         <aside class="redes-sociais">
-            <figure><a href="https://github.com/Carlos-Eduardo5Qs" target="_blank"><img src="assets/github.png" alt=""></a></figure>
-            <figure><a href="https://www.instagram.com/dudrasxcode/" target="_blank"><img src="assets/instagram.png"> </a></figure>
+            <figure><a href="https://github.com/Carlos-Eduardo5Qs" target="_blank"><img src="assets/github.png"
+                        alt=""></a></figure>
+            <figure><a href="https://www.instagram.com/dudrasxcode/" target="_blank"><img src="assets/instagram.png">
+                </a></figure>
             <figure><a href="*"><img src="assets/twitter.png" alt=""></a></figure>
             <figure><a href="*"><img src="assets/linkedin.png" alt=""></a></figure>
         </aside>
@@ -39,18 +44,97 @@
                 <img src="img/WhatsApp Image 2022-07-02 at 15.14.51.png" alt="">
             </figure>
             <h1>Olá, sejam bem vindos!</h1>
-            <p>Meu nome é Carlos Eduardo e eu criei este site para pôr em prática todos os meus conhecimentos adquiridos nos últimos meses, meu propósito com o desenvolvimento deste projeto é construir novas experiências e desenvolver minhas habilidades para fixação de conteúdo, porque eu acredito que desenvolvedores iniciantes devem construir suas próprias experiências.</p>
+            <p>Meu nome é Carlos Eduardo e eu criei este site para pôr em prática todos os meus conhecimentos adquiridos
+                nos últimos meses, meu propósito com o desenvolvimento deste projeto é construir novas experiências e
+                desenvolver minhas habilidades para fixação de conteúdo, porque eu acredito que desenvolvedores
+                iniciantes devem construir suas próprias experiências.</p>
         </article>
     </main>
     <section class="habilidade height center">
         <article>
             <h2>O que ando fazendo atualmente?</h2>
-            <p>Atualmente estou me dedicando a aprender Javascript para dar um UP nas minhas aplicações webs, mas isso não é uma tarefa fácil para quem esta começando agora, ainda mais quando se estuda sozinho por conta própria. Mas felizmente sou brasileiro e nunca desisto, eu não sei dizer muito bem o meu nível de conhecimento em HTML e CSS mas enfim. Pretendo passar meus conhecimentos adiante de forma gratuita, afinal de contas eu estou aprendendo de forma gratuita não é mesmo? Um acordo justo que eu fiz com o universo enquanto estava em andrômeda.</p>
+            <p>Atualmente estou me dedicando a aprender Javascript para dar um UP nas minhas aplicações webs, e
+                principalmente focando em Lógica de programação, afinal o que é um programador sem lógica não é mesmo?
+                Minhas habilidades até o momento é HTML, CSS e o básico do básico em Javascript, ainda estou dando meus
+                primeiros passos nessa linguagem, tudo que eu sei fazer até este momento estará neste site. eu tenho que
+                aprender os Frameworks ainda.</p>
         </article>
         <figure>
             <img src="img/undraw_landing_page_re_6xev.svg" alt="">
         </figure>
     </section>
+
+    <div class="titulo-project">
+        <h1>Mini projetos mais recentes</h1>
+    </div>
+
+    <section class="container">
+        <button class="arrow-left control" aria-label="previous-image"> 🡰</button>
+        <button class="arrow-right control" aria-label="next-image">🡲</button>
+
+        <div class="gallery-wrapper">
+            <div class="gallery">
+
+                <div class="item project-imc">
+                    <h2>Calcule o seu IMC</h2>
+                    <table>
+                        <th>
+                            <tr>
+                                <td>IMC (kg/m²)</td>
+                                <td>Classificação</td>
+                                <td>Consequências para a saúde</td>
+                            </tr>
+                        </th>
+                        <tbody>
+                            <tr>
+                                <td>Menor que 18,5</td>
+                                <td>Magreza</td>
+                                <td>Fadiga, stress, ansidade</td>
+                            </tr>
+                            <tr>
+                                <td>18,5 a 24,9</td>
+                                <td>Peso normal</td>
+                                <td>Menor risco de doenças cardíacas e vasculares</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>25 a 29,9</td>
+                                <td>Sobrepeso</td>
+                                <td>Fadiga, má circulação, varizes</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <form action="post">
+                        <label for="peso">Peso:</label>
+                        <input type="text" id="peso">
+                        <label for="altura">Altura:</label>
+                        <input type="text" id="altura">
+                        <button>Calcular</button>
+                    </form>
+                    <div class="result"></div>
+
+                </div>
+                <div class="item">
+                    <h1>Farei um projeto aqui</h1>
+                </div>
+                <div class="item">
+                    <h1>Próximo projeto vira aqui</h1>
+                </div>
+                <div class="item">
+                    <h1>Próximo projeto virá aqui</h1>
+                </div>
+                <div class="item">
+                    <h1>Ultimo projeto virá aqui</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-sobre">
+
+    </section>
+    <script src="js/silde.js"></script>
 </body>
 
 </html>
