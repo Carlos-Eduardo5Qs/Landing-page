@@ -23,7 +23,7 @@ control.forEach(control => {
 
 
         item[currentItem].scrollIntoView({
-            inline:'center'
+            inline:'center',
         });
     });
 });
