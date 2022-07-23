@@ -1,0 +1,23 @@
+.cronometro {
+    background-color: rgba(255, 255, 0, 0.986);
+}
+
+.cronometro h1 {
+    font-size: 5rem;
+    padding-top: 8rem;
+    color: rgb(0, 0, 0);
+}
+
+.relogio {
+    font-size: 15rem;
+    padding: 2.5rem 0;
+}
+
+.iniciar,
+.pausar,
+.zerar {
+    font-size: 3rem;
+    padding: 1rem 6rem;
+    margin: 2rem;
+    cursor: pointer;
+}
